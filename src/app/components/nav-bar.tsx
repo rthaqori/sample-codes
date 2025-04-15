@@ -18,10 +18,13 @@ const NavBar = () => {
     <nav className="bg-white shadow-md relative z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
         {/* Logo */}
-        <a className="uppercase text-xl flex font-bold  text-gray-800" href="/">
+        <Link
+          className="uppercase text-xl flex font-bold  text-gray-800"
+          href="/"
+        >
           ATS Resume
           <PenTool className="-mt-3 -rotate-90 h-5 w-5 text-red-700" />
-        </a>
+        </Link>
 
         <div className="space-x-6 hidden md:flex">
           {links.map((link) => (
