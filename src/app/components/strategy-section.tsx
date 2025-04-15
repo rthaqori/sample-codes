@@ -37,7 +37,7 @@ const StrategySection = () => {
             {strategy.map((item, index) => (
               <div
                 key={index}
-                className="bg-white px-6 pt-5 h-64 gap-2 grid grid-rows-2 rounded-lg shadow-xl text-center "
+                className="bg-white px-6 pt-5 h-64 gap-2 grid grid-rows-2 rounded-lg shadow-xl text-center"
               >
                 <div className="flex row-span-1 items-center justify-center">
                   <Image

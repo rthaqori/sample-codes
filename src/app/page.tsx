@@ -53,8 +53,8 @@ export default function Home() {
             <p className="mt-4 capitalize text-gray-700 leading-relaxed">
               In today's hyper-competitive job market, using an AI tool or
               downloading a generic template might seem like the easy fix. But
-              here’s the truth: AI doesn’t understand your career, your
-              achievements, or how hiring really works. And templates? They’re
+              here's the truth: AI doesn't understand your career, your
+              achievements, or how hiring really works. And templates? They're
               built for speed—not strategy.
             </p>
           </div>
